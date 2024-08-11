@@ -17,6 +17,6 @@ DB_PORT: 5432
 DB_DATABASE: recipes
 
 then:
-server: cd server >> npm run dev
+server: cd server >> npm i >> npm run dev
 
-client: cd client >> npm run dev
+client: cd client >> npm i >> npm run dev
